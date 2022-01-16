@@ -39,7 +39,7 @@ def start_coffee_machine(resources):
     is_on = True
 
     while is_on:
-        choice = input("​What would you like? (espresso/latte/cappuccino): ")
+        choice = input("What would you like? (espresso/latte/cappuccino): ")
         if choice in ["off", "exit"]:
             is_on = False
             print("Bye!")
